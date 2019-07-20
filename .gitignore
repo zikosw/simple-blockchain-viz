@@ -1,0 +1,7 @@
+node_modules/
+.shadow-cljs/
+.idea/
+pom.xml
+*.iml
+.nrepl-port
+public/js/compiled/
