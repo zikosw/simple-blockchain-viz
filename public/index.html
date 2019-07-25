@@ -5,12 +5,31 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/css/bootstrap.min.css" >
     <link rel="stylesheet" href="/css/jsonhuman.css" >
+    <link rel="stylesheet" href="/css/app.css" >
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <script src="/js/jquery.min.js"></script>
 <!--    <script src="/js/bootstrap.min.js"></script>-->
+    <style>
+        .loading-center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 <body>
-<div id="app">loading...</div>
+
+<div id="app">
+    <div class="loading-center">
+        <img src="/cutie-fox-loading.svg" />
+    </div>
+</div>
 <script src="js/compiled/main.js"></script>
+
 </body>
 </html>
